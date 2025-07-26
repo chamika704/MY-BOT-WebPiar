@@ -1,23 +1,23 @@
 {
 "name": "web-pair",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name prabath",
-      "stop": "pm2 stop prabath",
-     "restart": "pm2 restart prabath"
+      "start": "pm2 start index.js --deep-monitoring --attach --name WhatsappBot",
+      "stop": "pm2 stop WhatsappBot",
+     "restart": "pm2 restart WhatsappBot"
     },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
-    "qrcode": "^1.5.3",
-    "awesome-phonenumber": "^2.64.0",
-    "pino": "^8.1.0",
-    "phone" : "3.1.30",
-    "body-parser": "^1.20.1",
-    "express": "^4.18.1",
+    "@whiskeysockets/baileys": "6.7.18",
+    "qrcode": "^1.5.4",
+    "awesome-phonenumber": "^7.5.0",
+    "pino": "^9.7.0",
+    "phone" : "3.1.66",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
     "path": "^0.12.7",
-    "megajs": "^1.1.0",
-    "pm2": "^5.2.0"
+    "megajs": "^1.3.7",
+    "pm2": "^6.0.8"
    }
 }
